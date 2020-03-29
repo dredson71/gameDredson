@@ -72,7 +72,7 @@ public class GameActivity extends AppCompatActivity implements View.OnTouchListe
 
     @Override
     public boolean onDoubleTap(MotionEvent e) {
-        Intent intent = new Intent(this, GameAction.class);
+        Intent intent = new Intent(this, ShakerActivity.class);
         startActivity(intent);
         return false;
     }
