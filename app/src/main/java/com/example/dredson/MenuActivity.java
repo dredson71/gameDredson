@@ -37,4 +37,7 @@ public class MenuActivity extends AppCompatActivity {
         startActivity(intent,optionsCompat.toBundle());
 
     }
+    @Override
+    public void onBackPressed() {
+    }
 }

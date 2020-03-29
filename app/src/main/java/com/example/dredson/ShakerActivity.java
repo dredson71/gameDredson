@@ -51,4 +51,7 @@ public class ShakerActivity extends AppCompatActivity implements SensorEventList
     public void onAccuracyChanged(Sensor sensor, int accuracy) {
 
     }
+    @Override
+    public void onBackPressed() {
+    }
 }

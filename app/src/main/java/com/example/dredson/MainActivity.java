@@ -57,4 +57,8 @@ public class MainActivity extends AppCompatActivity {
         playButton.setAnimation(fromBottom);
         infoButton.setAnimation(fromBottom);
     }
+
+    @Override
+    public void onBackPressed() {
+    }
 }

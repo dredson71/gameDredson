@@ -26,4 +26,8 @@ public class GameAction extends AppCompatActivity  {
         setContentView(new Game(this));
     }
 
+    @Override
+    public void onBackPressed() {
+    }
+
 }

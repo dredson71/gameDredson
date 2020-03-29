@@ -18,7 +18,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
+        android:id="@+id/game1Title"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="36dp"
@@ -27,4 +27,14 @@
         android:layout_toEndOf="@+id/game1Main"
         android:text="Game1"
         android:textSize="40dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:text="*Double tap on the control image to enter one view
+        \n*Long press on the control image to enter another view
+        \n*Fling on the control image to enter to the object movement"
+        android:textSize="20dp"
+        />
 </RelativeLayout>
